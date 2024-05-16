@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: rgb(10, 150, 206);
+    color: rgb(231, 236, 234);
+}
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 2rem;
+}
+
+.checkin-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.checkout-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+button{
+    width: 350px;
+    padding: 0.5rem;
+}
+
+button span.material-symbols-outlined{
+    display: inline;
+    vertical-align: middle;
+}
+
+.material-symbols-outlined{
+    padding-left: 12rem;
+    padding-top: 1rem;
+}
