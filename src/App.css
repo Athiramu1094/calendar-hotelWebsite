@@ -12,10 +12,12 @@ html{
 
 .container{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100vh;
+    padding-top: 5rem;
+   margin-bottom: 2rem;
     gap: 2rem;
 }
 
@@ -44,4 +46,12 @@ button span.material-symbols-outlined{
 .material-symbols-outlined{
     padding-left: 12rem;
     padding-top: 1rem;
+}
+
+
+@media (min-width: 768px) {
+
+    .container{
+        display: flex;
+        flex-direction: row;}
 }
